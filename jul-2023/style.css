@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    /* overflow-y: hidden; */
+}
+
+h1 {
+    font-family: 'Space Mono', monospace;
+    font-size: clamp(3rem, 10vw, 9rem);
+    color: white;
+    padding: 0rem clamp(1rem, 2vw, 3rem);
+    border-radius: clamp(0.4rem, 0.75vw, 1rem);
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+} 
+.no-link{
+    cursor: default;
+    all: unset;
+}
+#wrapper{
+    width:fit-content;
+    height: fit-content;
+    /* center */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

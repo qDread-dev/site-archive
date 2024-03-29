@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 10px;
+}
+#grid > div{
+    /* make a bento grid item */
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 30px;
+    columns: 1;
+}
